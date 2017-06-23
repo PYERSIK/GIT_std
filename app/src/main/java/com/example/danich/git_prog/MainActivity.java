@@ -1,6 +1,5 @@
 package com.example.danich.git_prog;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,6 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView tvOut;
     Button btn1;
     Button btn2;
+    Button btn3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvOut = (TextView) findViewById(R.id.tvOut);
         btn1 = (Button) findViewById(R.id.btn1);
         btn2 = (Button) findViewById(R.id.btn2);
+        btn3 = (Button) findViewById(R.id.btn3);
         btn2.setOnClickListener(this);
+        btn3.setOnClickListener(this);
 
 
 
@@ -42,6 +44,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn2:
                 Intent intent = new Intent(this, ActivityTask.class);
                 startActivity(intent);
+                break;
+            case R.id.btn3:
+                Intent intent1 = new Intent(this, Main2Activity.class);
+                startActivity(intent1);
                 break;
             default:
                 break;

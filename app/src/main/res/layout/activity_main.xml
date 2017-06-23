@@ -34,22 +34,30 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:background="#0f0"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="45dip"
-        android:layout_marginTop="300dip"
         android:textSize="30dp"
-        android:text="Кнопка не нажата :/"/>
+        android:text="Кнопка не нажата :/"
+        android:layout_below="@+id/btn3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:background="#0f9"
         android:layout_marginLeft="30dip"
         android:layout_marginTop="200dip"
         android:text="Если клацнешь сюда, будет прикольна))0))">
-
-        >
     </Button>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTN"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
 </RelativeLayout>

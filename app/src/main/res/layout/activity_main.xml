@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/btn1"
+        android:hint="Напиши сюда шото" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Нажми нэжно!" >
+    </Button>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Братан, даже не спрашивай, нафига это надо. Я сам не знаю. Отвечаю, не знаю. Я просто тренеруюсь верстать"/>
+
+    <TextView
+        android:id="@+id/tvOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#0f0"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dip"
+        android:layout_marginTop="300dip"
+        android:textSize="30dp"
+        android:text="Кнопка не нажата :/"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#0f9"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="200dip"
+        android:text="Если клацнешь сюда, будет прикольна))0))">
+
+        >
+    </Button>
+</RelativeLayout>

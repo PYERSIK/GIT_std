@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GIT_prog</string>
+    <string-array name="timelist">
+        <item>0:00</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+    </string-array>
+    <string-array name="datelist">
+        <item>вчэра</item>
+        <item>сэгодня</item>
+        <item>туморроу</item>
+        <item>послетуммороу</item>
+        <item>пхахха даня ты такой смешной</item>
+    </string-array>
+    <string name="Btn01">КРАСАВЭЛЛА</string>
+</resources>

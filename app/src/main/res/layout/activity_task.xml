@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reminder name" >
+    </EditText>
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:entries="@array/timelist">
+    </Spinner>
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:entries="@array/datelist">
+    </Spinner>
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_alignLeft="@+id/spinner1"
+        android:text="СДЭЛАНО"/>
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="90dip"
+        android:layout_marginTop="150dip"
+        android:textSize="30dp" />
+
+</RelativeLayout>
